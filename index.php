@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"> 
+    <title>Oneshot</title>
     <meta name="description" content="Oneshot - Your Secrets are safe">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,7 +12,7 @@
     
   </head>
 
-<body style="background-color:#ffffe6;">s
+<body style="background-color:#ffffe6;">
   <div class="page-header">
     <h1 align="center" >OneShot</h1>
     <h6 align="center"><i>Coz Thats All You Get</i></h6>      
