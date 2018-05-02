@@ -39,13 +39,13 @@
 function msg(){
 include 'connect.php';
 
-$url1 = $_GET['username'];
+$url_code	 = $_GET['url_code'];
 
-$vmt = $con->prepare("select * from shots where url1 = :url1");
-$vmt->bindParam(':url1',$url1);
+$vmt = $con->prepare("select * from shots where url_code = :url_code");
+$vmt->bindParam(':url_code',$url_code);
 $vmt->execute();
-$dmt = $con->prepare("delete from shots where url1 = :url1");
-$dmt->bindParam(':url1',$url1);
+$dmt = $con->prepare("delete from shots where url_code = :url_code");
+$dmt->bindParam(':url_code',$url_code);
 $dmt->execute();
 
 if($vmt->rowCount() > 0){
