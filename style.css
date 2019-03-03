@@ -1,0 +1,11 @@
+.footer {
+    font-size: 12px;
+    color: #aaa;
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer a:hover {
+    text-decoration: none!important;
+}
